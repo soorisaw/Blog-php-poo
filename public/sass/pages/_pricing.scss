@@ -1,0 +1,60 @@
+.body-pricing {
+    background-color: $color-secondary;
+}
+
+.card-price {
+
+    &__header {
+        background-color: $color-primary;
+    }
+    &__body {
+        background-color: $color-black;
+        color: $color-black;
+    }
+     &__footer {
+        background-color: $color-black;
+    }
+    &__price {
+        color: $color-primary;
+        margin-bottom: 20px;
+        & small {
+            color: $color-secondary;    
+        }
+    }
+    &__list li {
+        margin-bottom: 10px;
+        color: $color-secondary;
+    }
+    &__btn {
+        color: $color-secondary;
+        background-color: $color-primary;
+        border: 1px $color-secondary solid;
+        &:hover {
+            background-color: $color-black;
+            color: $color-primary;
+            border: 1px $color-primary solid;
+        }
+        &:active {
+            background-color: $color-black;
+            color: $color-primary;
+            border: 1px $color-primary solid;
+        }
+        &:focus {
+            background-color: $color-black;
+            color: $color-primary;
+            border: 1px $color-primary solid;
+        }
+    }
+}
+
+.offer {
+    background-color: $color-black;
+    border: 1px $color-primary solid;
+    &__body {
+        border-top: 1px $color-secondary solid;
+    }
+    &__title {
+        color: $color-primary;
+        font-size: 300%;
+    }
+}

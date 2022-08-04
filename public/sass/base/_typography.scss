@@ -1,0 +1,98 @@
+@font-face {font-family: "Nokio-Medium";
+    src: url("../assets/police/Nokio-Medium/326619a7a5fb14952717941fcc7b05b8.eot"); /* IE9*/
+    src: url("../assets/police/Nokio-Medium/326619a7a5fb14952717941fcc7b05b8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+         url("../assets/police/Nokio-Medium/326619a7a5fb14952717941fcc7b05b8.woff2") format("woff2"), /* chrome、firefox */
+         url("../assets/police/Nokio-Medium/326619a7a5fb14952717941fcc7b05b8.woff") format("woff"), /* chrome、firefox */
+         url("../assets/police/Nokio-Medium/326619a7a5fb14952717941fcc7b05b8.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+         url("../assets/police/Nokio-Medium/326619a7a5fb14952717941fcc7b05b8.svg#Nokio-Medium") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+    font-family: 'Yorkshire';
+    src: url('../assets/police/yorkshireNoBrush/yorkshireslanted-regular-webfont.eot');
+    src: url('../assets/police/yorkshireNoBrush/yorkshireslanted-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../assets/police/yorkshireNoBrush/yorkshireslanted-regular-webfont.woff2') format('woff2'),
+         url('../assets/police/yorkshireNoBrush/yorkshireslanted-regular-webfont.woff') format('woff'),
+         url('../assets/police/yorkshireNoBrush/yorkshireslanted-regular-webfont.ttf') format('truetype'),
+         url('../assets/police/yorkshireNoBrush/yorkshireslanted-regular-webfont.svg#yorkshire_slantedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.nokio {
+    font-family: "Nokio-Medium","Arial Black",Arial,sans-serif;
+    color : $color-secondary;
+    font-size: 50%;
+}
+
+.nokioB {
+    font-family: "Nokio-Medium","Arial Black",Arial,sans-serif;
+    color : $color-black;
+    font-size: 50%;
+}
+
+.nokioP {
+    font-family: "Nokio-Medium","Arial Black",Arial,sans-serif;
+    color : $color-primary;
+    font-size: 180%;
+}
+
+.york {
+    font-family: "Yorkshire","Arial Black",Arial,sans-serif;
+    color : $color-primary;
+}
+
+.york1 {
+    font-family: "Yorkshire","Arial Black",Arial,sans-serif;
+    color : $color-primary;
+    font-size: 500%;
+    @include smallMobile;
+}
+
+.york2 {
+    font-family: "Yorkshire","Arial Black",Arial,sans-serif;
+    color : $color-secondary;
+    font-size: 400%;
+}
+
+.york3 {
+    font-family: "Yorkshire","Arial Black",Arial,sans-serif;
+    color : $color-primary;
+    font-size: 150%;
+}
+
+.websmart {
+    font-family: "Nokio-Medium","Arial Black",Arial,sans-serif;
+    color : $color-primary;
+    font-size: 500%;
+    font-weight: bold;
+    @include smallMobile;
+}
+
+.domore {
+    font-family: "Nokio-Medium","Arial Black",Arial,sans-serif;
+    color : $color-secondary;
+    font-size: 500%;
+    font-weight: bold;
+    @include smallMobile;
+}
+
+
+.freedom {
+    font-family: "Yorkshire","Arial Black",Arial,sans-serif;
+    color : #d502a6;
+    font-size: 500%;
+    font-weight: bolder;
+}
+
+html,body {
+    font-family: "Nokio-Medium","Arial Black",Arial,sans-serif;
+}
+
+p {
+    font-size: 120%;
+}
+
+
+

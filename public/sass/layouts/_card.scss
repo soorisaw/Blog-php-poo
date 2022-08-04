@@ -1,0 +1,51 @@
+.card-index {
+
+    background-color: $color-secondary;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-top: solid 1px $color-primary;
+    &__deck {
+        background-color: $color-secondary;
+        height: 100%;
+        &:hover {
+            border: 1px $color-primary solid;
+        }
+        & .card-body {
+            padding-top: 0%;
+        }    
+    }
+    & img {
+        background-color: $color-primary;
+    }
+    &__title {
+        color: $color-primary;
+        margin-top: 10px;
+    }
+    &__text {
+        color: $color-black;    
+    }
+    & .card-footer {
+        background-color: $color-black;
+    }
+    &__btn {
+        color: $color-secondary;
+        background-color: $color-primary;
+        border: 1px $color-secondary outset;       
+        &:hover {
+            background-color: $color-black;
+            border : 1px $color-primary outset;
+            color : $color-primary; 
+            
+        }
+        &:focus {
+            color: $color-secondary;
+            background-color: $color-primary;
+            border: 1px $color-secondary outset;        
+        }
+         &:active {
+            color: $color-secondary;
+            background-color: $color-primary;
+            border: 1px $color-secondary outset;        
+        }
+    }
+}

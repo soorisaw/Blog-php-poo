@@ -1,0 +1,23 @@
+.contact__speech {
+    background-color: $color-primary;
+    color: $color-secondary;
+}
+
+.contact__form {
+    background-color: $color-black;
+    border: 1px $color-primary outset;
+}
+
+.contact__btn .btn-default {
+    color: $color-secondary;
+    border: 1px $color-primary outset;
+    &:hover {
+        color: $color-primary ;
+        border: 1px $color-secondary outset;
+    }
+}
+
+.form-control:focus {
+  border-color: $color-primary;
+  box-shadow: inset 0 1px 1px $color-secondary, 0 0 8px $color-primary;
+}

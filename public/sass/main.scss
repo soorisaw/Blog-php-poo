@@ -1,0 +1,31 @@
+@import "utils/variables";
+@import "utils/functions";
+@import "utils/mixins";
+@import "utils/extensions";
+
+@import "base/base";
+@import "base/typography";
+
+@import "components/buttons";
+@import "components/adminButton";
+
+@import "layouts/card";
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/nav";
+@import "layouts/container";
+@import "layouts/form";
+@import "layouts/spider";
+
+@import "layouts/modal";
+@import "layouts/modalRegister";
+@import "layouts/modalProfil";
+/*@import "layouts/modalNewForum";*/
+
+
+@import "pages/index";
+@import "pages/about";
+@import "pages/pricing";
+@import "pages/project";
+@import "pages/contact";
+@import "pages/showArticle";

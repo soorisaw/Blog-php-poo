@@ -1,0 +1,23 @@
+.adminButton {
+
+	& a:hover {
+		text-decoration: none;
+		border: 1px solid $color-black;
+		background-color: $color-primary;
+		color: $color-secondary;
+	}
+
+	& a {
+		border: 1px solid $color-primary;
+		background-color: $color-black;
+		color: $color-primary;
+		border-radius: 50%;
+		padding: 3px;
+		position: fixed;
+		z-index: 1;
+		bottom: 20px;
+		left: 95%;
+		opacity: 0.7;
+	}
+
+}

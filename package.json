@@ -1,0 +1,16 @@
+{
+  "name": "websmartsolution",
+  "version": "V3",
+  "description": "agency",
+  "main": "public/js/main.js",
+  "scripts": {
+    "sass": "sass --watch public/sass/main.scss:public/css/style.css",
+    "prefix": "postcss public/css/style.css --use autoprefixer -d public/css/prefixed/"
+  },
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "dependencies": {
+    "tinymce": "^5.8.2"
+  }
+}

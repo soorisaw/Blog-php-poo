@@ -1,0 +1,11 @@
+/*blog nav button switch*/
+.blog-btn {
+        background-color: $color-black;
+        border : 1px $color-secondary outset;
+        color : $color-primary !important; 
+        &:hover {
+            color: $color-secondary;
+            background-color: $color-primary;
+            border: 1px $color-secondary outset;       
+        }
+}

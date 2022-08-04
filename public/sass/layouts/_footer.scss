@@ -1,0 +1,43 @@
+.p-small {
+    font-size: 80%;
+}
+
+.footer {
+    background-color: $color-black;
+    color: $color-secondary;
+    border-top: 2px solid $color-primary;
+    &__item a {
+        color: $color-secondary;    
+    }
+}
+
+.footer-copyright {
+    background-color: $color-primary;
+    color: $color-secondary;
+    & a {
+        background-color: $color-black;
+        color:$color-primary ;
+        border: 1px $color-primary solid;
+        border-radius: 40px;
+        padding-top: 1.5px;
+    }
+}   
+
+.footer-hr-top {
+    height: 0.1px;
+    margin: 2% 5% ;
+    background-color: $color-primary;
+}
+
+.footer-hr-bottom {
+    height: 0.1px;
+    margin: 2% 25% ;
+    background-color: $color-primary;
+}
+
+.footer-icon {
+    color: $color-secondary;
+    &:hover {
+        color: $color-primary;
+    }
+}

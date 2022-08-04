@@ -1,0 +1,12 @@
+@mixin background-responsive {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@mixin smallMobile {
+    @media screen and (max-width: 470px) {
+        font-size: 300%;
+    }
+}

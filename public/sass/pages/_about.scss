@@ -1,0 +1,25 @@
+.about-body {
+    background-color: $color-secondary;
+}
+
+.h1-about {
+    background-color: $color-black;
+    color: $color-primary;
+    border: 1px $color-primary solid;
+    border-radius: 30px;
+    font-size: 85%;
+    padding: 5px 10px;
+}
+
+.about-header {
+    background-color: $color-primary;
+}
+
+.about-section {
+    background-color: $color-primary;
+    border: 1px $color-primary outset;
+    &__title {
+        color: $color-primary;
+        background-color: $color-black;
+    }
+}

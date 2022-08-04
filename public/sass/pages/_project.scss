@@ -1,0 +1,84 @@
+
+.project__body {
+    background-color: $color-black;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.gallerie {
+    background-color: $color-primary;
+    border: 1px $color-primary solid;
+    &__square-black {
+        background: $color-black;
+    }
+    &__btn-black {
+        color: $color-secondary;
+        background-color: $color-primary;
+        border: 1px $color-secondary solid;
+        border-radius: 40px;
+        &:hover {
+            text-decoration: none;
+            color: $color-primary;
+            background-color: $color-black;
+            border: 1px $color-primary solid;
+        }
+    }
+
+
+    &__btn-orange {
+        color: $color-primary;
+        background-color: $color-black;
+        border: 1px $color-secondary solid;
+        border-radius: 40px;
+        &:hover {
+            text-decoration: none;
+            color: $color-secondary;
+            background-color: $color-primary;
+            border: 1px $color-secondary solid;
+        }
+    }
+}
+
+figure {
+    margin: 0px;
+}
+/*-----------CAROUSEL------------*/
+.carousel-logo {
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    margin-left: 17px;
+}
+
+.s-imgCarousel {
+    width: 100%;
+    height: 100%;
+}
+
+
+.carousel {
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 50%, rgba(242,115,22,1) 50%);
+}
+
+.carousel-item .img-fluid {
+    width:100%;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+@media only screen and (max-width: 299px) {
+    .carousel-caption {
+       display: none;
+    }
+}
+
+
+
+
+
+
