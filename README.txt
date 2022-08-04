@@ -1,4 +1,13 @@
-WebSmartSolution V3.2.0
+Blog php en poo
+
+un blog réalisé comme projet de fin d'année (Php/Poo) pendant mes études de développeur web. il n'est pas totalement fini, mais il dispose d'une base solid.
+Autoloader
+Formulaire (poo)
+MVC (Router)
+wysiwyg
+Forum (topic, comment)
+Gestion upload
+Connexion
 
 # Arboressence 
 
@@ -30,3 +39,12 @@ Contient toutes les vues, càd tous le code HTML
 
 ATTENTION : un controleur doit toujours être nommé de cette façon : [Contexte]Controller ou Contexte représente le contexte de l'action que l'on souhaite exécuter.
 Exemple : BlogController représente tout le contexte lié à un Blog (affichage des articles, affichage d'un article en particulier, post de commentaire, etc...)
+
+
+
+Un grand MERCI à tous ceux qui m'ont permis d'apprendre les différentes méthodes utilisées pour ce projet :
+Jonathan Boyer (Grafikart.fr)
+nouvelle-Techno.fr
+Openclassrooms.com
+Gamory sensei (ifa)
+Quirin sama (ifa)
